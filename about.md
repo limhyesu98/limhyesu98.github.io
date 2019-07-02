@@ -1,14 +1,17 @@
 ---
 layout: page
-title: About
+title: About this blog
 permalink: /about/
 ---
 
-Some information should be added here.
+### Author
+**Name** : Hyesu Lim<br>
+**Education** : Korea Univ. Computer Science and Engineering Studnet<br>
+**Interested in** : NLP, AI, Deep Learning, Text Summarization
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+I will post some outcomes related to my study in this blog.
 
 ### Contact me
 
