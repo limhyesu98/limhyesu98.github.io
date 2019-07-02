@@ -3,7 +3,7 @@ layout: post
 title: Second Post
 ---
 
-### New title for the second post
+#### New title for the second post
 *this is subtitle*
 
 
