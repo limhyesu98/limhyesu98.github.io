@@ -15,4 +15,4 @@ I will post some outcomes related to my study in this blog.
 
 ### Contact me
 
-[redbalonn17@gmail.com](mailto:redbalonn17@gmail.com)
+[redbaloon17@gmail.com](mailto:redbaloon17@gmail.com)
