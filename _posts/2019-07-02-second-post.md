@@ -4,7 +4,7 @@ title: Second Post
 ---
 
 ### New title for the second post
-**this is subtitle
+*this is subtitle*
 ```python
 import numpy as np
 ```
