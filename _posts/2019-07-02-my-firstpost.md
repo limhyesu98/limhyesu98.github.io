@@ -6,9 +6,6 @@ Hello this is hyesu.
 
 
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
-
-
 ```java
 String str = "hello world";
 System.out.println(str);
