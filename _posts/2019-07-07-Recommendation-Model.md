@@ -4,10 +4,13 @@ title: Recommendation Model using Balck Friday Dataset
 ---
 
 ### 2019 Data Science Term Project
+
+
+
+
+
+
 #### Project title: Explore and Analyze Black Friday Data & Build a Recommendation Model
-
-
-
 
 In this project, we explored and analyzed Black Friday Dataset and built a recommendation model. 
 The model is user based collaborative filtering model.
