@@ -16,3 +16,4 @@ title: Posting List
 5. KU 학부연구생 참여 프로젝트<br>
 6. CS224N 강의 정리<br>
 7. text summarization 기본 개요 및 내용 정리<br>
+8. 논문 읽고 정리하기<br>
