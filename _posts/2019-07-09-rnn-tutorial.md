@@ -8,6 +8,7 @@ This post is RNN tutorial written in Korean and it has referenced [WILDML](http:
 
 
 
+html header: <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
 ### Part 1: Introduction to RNNS
 
@@ -19,4 +20,5 @@ This post is RNN tutorial written in Korean and it has referenced [WILDML](http:
 * $\s_t$ 는 t 시간의 은닉 상태(hidden state) 이다. RNN 에서 "기억" 하는 부분이라고 말할 수 있다. 이전 은닉 상태 ($\s_t-1$) 와 현재 input 을 통해서 계산된다.
 $$ s_t = f(U\x_t + W\s_t-1)
 이때 함수 f 는 일반적으로 비선형 함수인 tanh 나 ReLU 이다. $s_-1$ 는 0 으로 초기화된다.
-* $\o_t$ 는 t 시간의 output 이다. 예를 들어서, 어느 문장에서 다음 단어를 예측하고 싶다면, 그 단어는 vocabulary 중 확률값을 통해 얻은 vector 일 것이다. o_t = softmax(V_s_t)
+* $\o_t$ 는 t 시간의 output 이다. 예를 들어서, 어느 문장에서 다음 단어를 예측하고 싶다면, 그 단어는 vocabulary 중 확률값을 통해 얻은 vector 일 것이다. o_t = softmax(V_s_t)<br>
+\\({e}^{i\pi}+1=0\\)
