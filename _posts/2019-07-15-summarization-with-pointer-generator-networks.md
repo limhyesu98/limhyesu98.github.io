@@ -18,3 +18,7 @@ Neural sequence-to-sequence models have improved abstractive text summarization.
 But there are still few big problems, so by using Pointer-Generator Networks and coverage,
 the author tried to solve those problems and ended up with huge improvements.<br>
 
+#### Basic Recurrent Neural Networks
+First, let's look at the basic Recurrent Neural Networks(RNNs). It is constructed with bidirectional encoder RNN, uni-directional decoder RNN, attention distribution, context vector, and vocabulary distribution.<br>
+
+Encoder RNN reads the source text word-by-word and produce the encoder hidden states. 
