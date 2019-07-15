@@ -10,10 +10,6 @@ This post is a reveiw of this ACL 2017 [paper](https://arxiv.org/abs/1704.04368)
 
 
 
-
-
-
-
 There are two types of automatic summarization : extractive and abstractive.
 Extractive summarization is much easier to implement but abstractive one is much more
  powerful and human-friendly.<br>
