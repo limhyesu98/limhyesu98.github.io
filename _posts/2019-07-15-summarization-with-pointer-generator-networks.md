@@ -1,6 +1,6 @@
 ---
 layout : post
-title : Reveiw of "Get To The Point: Summarization with Pointer-Generator Networks"
+title : Summarization with Pointer-Generator Networks
 ---
 
 This post is a reveiw of this ACL 2017 [paper](https://arxiv.org/abs/1704.04368)
