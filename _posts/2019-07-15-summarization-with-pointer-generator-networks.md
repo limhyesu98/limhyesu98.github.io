@@ -21,4 +21,5 @@ the author tried to solve those problems and ended up with huge improvements.<br
 #### Basic Recurrent Neural Networks
 First, let's look at the basic Recurrent Neural Networks(RNNs). It is constructed with bidirectional encoder RNN, uni-directional decoder RNN, attention distribution, context vector, and vocabulary distribution.<br>
 
-Encoder RNN reads the source text word-by-word and produce the encoder hidden states. 
+1. Encoder RNN reads the source text word-by-word and produce the encoder hidden states. 
+2. After the encoder reads the whole source text, the decoder RNN starts to produce the output which forms the summary. The decoder RNN recieves previous deocer output as input and produces the **decoder hidden states**. The hidden state is used to calculate the **attention distribution**. 
