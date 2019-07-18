@@ -31,5 +31,17 @@ In this way, RNN with attentional mechanism creates summary from reading the sou
 
 #### Two Big Problems in RNN
 There are two big problems in this approach.
-1. The model makes factual errors, a nonsensical sentence and cannot handle OOV(Out-Of-Vocabulary) words.
-2. 
+
+1. The model makes **factual errors**, a nonsensical sentence and cannot handle OOV(Out-Of-Vocabulary) words.
+2. The summary sometimes **repeats itself**.
+
+The causation of the first problem is that sequence-to-sequence-with-attention model makes it too difficult to copy a word from the source text. In order to copy a word from the source, the word has to pass through several layers of computation so that it is not easy to recover.<br>
+
+The second problem, repetition is caused by decoder's over-reliance on the decoder output. Decoder takes its previous output as input. Therefore, single repeated triggers an endless repetitive cycle.
+
+#### Easier Copying with Pointer-Generator Networks
+**Pointer-generator network** is the solution for the first problem(creating factual errors).
+
+
+#### Reference
+[Blog post](http://www.abigailsee.com/2017/04/16/taming-rnns-for-better-summarization.html) written by Abigail See, the author of the paper.
