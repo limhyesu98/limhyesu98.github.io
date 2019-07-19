@@ -40,8 +40,21 @@ The causation of the first problem is that sequence-to-sequence-with-attention m
 The second problem, repetition is caused by decoder's over-reliance on the decoder output. Decoder takes its previous output as input. Therefore, single repeated triggers an endless repetitive cycle.
 
 #### Easier Copying with Pointer-Generator Networks
-**Pointer-generator network** is the solution for the first problem(creating factual errors).
+**Pointer-generator network** is the solution for the first problem(creating factual errors). This is a hybrid between the baseline and a pointer network. It allows copying by *pointing*, and *generating* words from a fixed vocabulary. 
 
+1. Same as the baseline model, we calculate **attention distribution** and **vocabulary distribution**. 
+2. In this network, however, we also calculate the **generation probability** which is a scalar between 0 and 1. This is probability of generating a word from vocabulary instead of copying from the source. The generation probability is used to weight and combine the **vocabulary distribution** and **attention distribution** so that calculate the **final distribution**.
+
+Therefore, the final dstribution decides whether to copy a word from the source text or to generate a word. There are several advantages of pointer-generator network compared to sequence-to-sequence-with-attention system:
+
+1. It is easy to copy words from text. It just has to make generation probability low so that allow the model to copy word via pointing.
+2. The pointer-generator model can handle OOV much better than the baseline model. It enables model to take care of small amount of words.
+
+#### Eliminating Repetition with Coverage
+The repetition of summary was the second problem of our baseline model. In order to deal with that problem, we are going to use a technique called **coverage**.
+
+We use **coverage vector** which is the sum of all attention distributions over all previous decoder timesteps. *Intuitively, coverage vector is a unnormalized distribution over the source document words that represents the degree of coverage that those words have received from the attention mechanism so far.*  
+This tries to prevent the network from attending to any word that has already been covered. And this will prevent the possibility of repeated word.
 
 #### Reference
 [Blog post](http://www.abigailsee.com/2017/04/16/taming-rnns-for-better-summarization.html) written by Abigail See, the author of the paper.
