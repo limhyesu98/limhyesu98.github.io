@@ -18,7 +18,7 @@ Neural sequence-to-sequence models have improved abstractive text summarization.
 But there are still few big problems, so by using Pointer-Generator Networks and coverage,
 the author tried to solve those problems and ended up with huge improvements.<br>
 
-#### Basic Recurrent Neural Networks
+### Basic Recurrent Neural Networks
 First, let's look at the basic Recurrent Neural Networks(RNNs). It is constructed with bidirectional encoder RNN, uni-directional decoder RNN, attention distribution, context vector, and vocabulary distribution.<br>
 
 1. Encoder RNN reads the source text word-by-word and produce the encoder hidden states. <br>
@@ -29,7 +29,7 @@ First, let's look at the basic Recurrent Neural Networks(RNNs). It is constructe
 
 In this way, RNN with attentional mechanism creates summary from reading the source text.
 
-#### Two Big Problems in RNN
+### Two Big Problems in RNN
 There are two big problems in this approach.
 
 1. The model makes **factual errors**, a nonsensical sentence and cannot handle OOV(Out-Of-Vocabulary) words.
@@ -39,7 +39,7 @@ The causation of the first problem is that sequence-to-sequence-with-attention m
 
 The second problem, repetition is caused by decoder's over-reliance on the decoder output. Decoder takes its previous output as input. Therefore, single repeated triggers an endless repetitive cycle.
 
-#### Easier Copying with Pointer-Generator Networks
+### Easier Copying with Pointer-Generator Networks
 **Pointer-generator network** is the solution for the first problem(creating factual errors). This is a hybrid between the baseline and a pointer network. It allows copying by *pointing*, and *generating* words from a fixed vocabulary. 
 
 1. Same as the baseline model, we calculate **attention distribution** and **vocabulary distribution**. 
@@ -50,11 +50,11 @@ Therefore, the final dstribution decides whether to copy a word from the source 
 1. It is easy to copy words from text. It just has to make generation probability low so that allow the model to copy word via pointing.
 2. The pointer-generator model can handle OOV much better than the baseline model. It enables model to take care of small amount of words.
 
-#### Eliminating Repetition with Coverage
+### Eliminating Repetition with Coverage
 The repetition of summary was the second problem of our baseline model. In order to deal with that problem, we are going to use a technique called **coverage**.
 
 We use **coverage vector** which is the sum of all attention distributions over all previous decoder timesteps. *Intuitively, coverage vector is a unnormalized distribution over the source document words that represents the degree of coverage that those words have received from the attention mechanism so far.*  
 This tries to prevent the network from attending to any word that has already been covered. And this will prevent the possibility of repeated word.
 
-#### Reference
+### Reference
 [Blog post](http://www.abigailsee.com/2017/04/16/taming-rnns-for-better-summarization.html) written by Abigail See, the author of the paper.
