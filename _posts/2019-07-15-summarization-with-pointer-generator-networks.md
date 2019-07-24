@@ -9,6 +9,8 @@ This post is a reveiw of this ACL 2017 [paper](https://arxiv.org/abs/1704.04368)
 
 
 
+If you want to see the result of running the code, visit [here](https://limhyesu98.github.io/run-pointer-generator-model/).
+
 
 There are two types of automatic summarization : extractive and abstractive.
 Extractive summarization is much easier to implement but abstractive one is much more
