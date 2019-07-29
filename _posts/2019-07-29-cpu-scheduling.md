@@ -18,6 +18,6 @@ Through these metrics, you can compare one algorithm with others and analyze eac
 
 There is a report of this project [here](https://github.com/limhyesu98/OperatingSystem_cpuSchedule/blob/master/Term_Report_OS.pdf).
 It includes explanation of basic concept of the cpu scheduler and cpu scheduling algorithms. 
-Also, it contains explanation of how I implemented the simulator, and the result of running each algorithm with 3 different processes.<br>
+Also, it contains explanation of how I implemented the simulator, and the result of running each algorithm with three different processes.<br>
 
 The code of this simulator is [here](https://github.com/limhyesu98/OperatingSystem_cpuSchedule/blob/master/Term_Code_OS.c).
