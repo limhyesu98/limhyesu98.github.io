@@ -1,6 +1,6 @@
 ---
 layout : post
-title : Finding Top n Important Senteces from Article.
+title : Finding Top n Important Senteces from Article
 ---
 
 In this post, we find top n important sentences from articles. 
