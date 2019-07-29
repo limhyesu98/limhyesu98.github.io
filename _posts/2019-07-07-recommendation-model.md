@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Recommendation Model using Balck Friday Dataset
+title: \[Data Science\]Recommendation Model using Balck Friday Dataset
 ---
 
 ### 2019 Data Science Term Project
