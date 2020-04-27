@@ -6,16 +6,14 @@ permalink: /about/
 
 ### Education
 <img src="https://raw.githubusercontent.com/limhyesu98/limhyesu98.github.io/master/images/KoreaUniv.png" width="50">
+<img src="https://raw.githubusercontent.com/limhyesu98/limhyesu98.github.io/master/images/KoreaUniv_.png" height="50">
 
-**Korea University**<br>
-Bachelor's degree, Computer Science and Engineering <br>
-2017-2021
+<br>
 
 <img src="https://raw.githubusercontent.com/limhyesu98/limhyesu98.github.io/master/images/UofT.png" width="50">
 
-**University of Toronto(UTSG)**<br>
-Exchange Student, Computer Science <br>
-Fall 2019 - Winter 2020<br>
+<img src="https://raw.githubusercontent.com/limhyesu98/limhyesu98.github.io/master/images/UofT_.png" height="50">
+
 
 ### Research Interest
 Natural Language Processing, Artificial Intelligence, Deep Learning
@@ -28,9 +26,16 @@ Natural Language Processing, Artificial Intelligence, Deep Learning
 
 **개인 프로젝트 (2020)**
 1. [NLP/NN/DL] Learning Distributed Word Representations: Training NN with GloVe, Comparing with TSNE vectors
-2. [Vision/NN/DL] CNN: Colourization and Classification, UNet
+    > Implemented gradient update of GloVe and find out relationship between dimensionality and its validation performance. Studied the neural language model (Bengio et al. [2003]) and compared it with the n-gram model. Trained the neural language model and analyzed its performance.
+
+2. [Vision/NN/DL] CNN: Colourization and Classification, UNet. Fine-tune Semenatic Segmentation Model.
+    > Trained CNN for image colourization using CIFAR-10 data set; given greyscale image, predicted the color at each pixel. Implemented convolution layer. Implemented UNet (Ronneberger et al. [2015]) and compared its performance with that of CNN. Using deeplav3(Chen et al. [2017]) pre-trained model and fine-tuned its last layer(freezing other parts) on Oxford17 (Nilsback and Zisserman [2008]) flower dataset. 
+
 3. [NLP/NN/DL] Attention-Based Neural Machine Translation: Translation between PigLatin(toy language) and English using GRU, Additive Attention, Scaled Dot Product Attention(Causal / Non-causal) models
+    > Implemented attention based NMT models. Analyzed performance of three different models: traditional encoder-decoder model(using GRU), additive attention decoder model, transformer model.
+
 4. [NLP/NN/DL] BERT fine-tuning
+    > Fine-tuned BERT pretrained model on the single sentence classification task using verbal arithmetic dataset. Improved performance by hyperparameter tuning (applied weight decay in optimizer).
 
 **개인 프로젝트 (2019)**
 1. [NLP/Computational Linguistics] Transition-Based Dependency Parsing, Neural Dependency Parser [Github](https://github.com/limhyesu98/DependencyParser)
