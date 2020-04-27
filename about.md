@@ -5,11 +5,9 @@ permalink: /about/
 ---
 
 ### Education
-<img src="https://raw.githubusercontent.com/limhyesu98/limhyesu98.github.io/master/images/KoreaUniv.png" width="50"><img src="https://raw.githubusercontent.com/limhyesu98/limhyesu98.github.io/master/images/KoreaUniv_.png" height="50">
+<img src="https://raw.githubusercontent.com/limhyesu98/limhyesu98.github.io/master/images/KoreaUniv.png" width="60"><img src="https://raw.githubusercontent.com/limhyesu98/limhyesu98.github.io/master/images/KoreaUniv_.png" height="60">
 
-<br>
-
-<img src="https://raw.githubusercontent.com/limhyesu98/limhyesu98.github.io/master/images/UofT.png" width="50"><img src="https://raw.githubusercontent.com/limhyesu98/limhyesu98.github.io/master/images/UofT_.png" height="50">
+<img src="https://raw.githubusercontent.com/limhyesu98/limhyesu98.github.io/master/images/UofT.png" width="60"><img src="https://raw.githubusercontent.com/limhyesu98/limhyesu98.github.io/master/images/UofT_.png" height="60">
 
 
 ### Research Interest
@@ -17,13 +15,15 @@ Natural Language Processing, Artificial Intelligence, Deep Learning
 
 ### Projects
 
-**팀 프로젝트**
-1. 웹 애플리케이션 개발 (2020/01~2020/04, 팀원 6명): Python Flask, PostgreSQL, SQLAlchemy, React, JavaScript 로 웹 애플리케이션 개발. 데이터베이스 및 백앤드 담당. 윤리적으로 생산된 제품을 판매하는 쇼핑몰 검샘 엔진 사이트. [Github](https://github.com/SmitRao/meg)
-2. UI/UX 디자인 (2019/09~2019/12, 팀원 6명): Iterative Design Process (Design, Prototype, Evaluate(Usability Testing 및 Expert Reviews 포함)) 를 통해서 진행한 앱 디자인. 연간/월간/일간 계획을 관리할 수 있고 계획을 지킬 수 있도록 동기부여하는 모바일 애플리케이션.
+**Team Projects**
+1. Web Application Development (2020/01~2020/04, Team of six members)
+    > Having an partnership with MEG, developed a web application using Python Flask, PostgreSQL, SQLAlchemy, React, JavaScript as a memeber of developing team. Mainly worked on DB and Backend. It was a searching engine for ethical produts. [Github](https://github.com/SmitRao/meg)
+2. UI/UX Design (2019/09~2019/12, Team of six members)
+    > Following through the diamond iterative design process (Design, Prototype, Evaluate(including usability testing and expert reviews)), I designed a mobile application. Main feature of this application is managing one's yearly/monthly/daily plan and motivating users to stick their goals.
 
-**개인 프로젝트 (2020)**
-1. [NLP/NN/DL] Learning Distributed Word Representations: Training NN with GloVe, Comparing with TSNE vectors
-    > Implemented gradient update of GloVe and find out relationship between dimensionality and its validation performance. Studied the neural language model (Bengio et al. [2003]) and compared it with the n-gram model. Trained the neural language model and analyzed its performance.
+**Personal Projects (2020)**
+1. `NLP/NN/DL` Learning Distributed Word Representations
+    > Implemented gradient update of GloVe and find out relationship between dimensionality and its validation performance. Studied the neural language model (Bengio et al. [2003]) and compared it with the n-gram model by visualizing with t-SNE vectors(Maaten and Hinton [2008]). Trained the neural language model and analyzed its performance.
 
 2. [Vision/NN/DL] CNN: Colourization and Classification, UNet. Fine-tune Semenatic Segmentation Model.
     > Trained CNN for image colourization using CIFAR-10 data set; given greyscale image, predicted the color at each pixel. Implemented convolution layer. Implemented UNet (Ronneberger et al. [2015]) and compared its performance with that of CNN. Using deeplav3(Chen et al. [2017]) pre-trained model and fine-tuned its last layer(freezing other parts) on Oxford17 (Nilsback and Zisserman [2008]) flower dataset. 
@@ -34,8 +34,10 @@ Natural Language Processing, Artificial Intelligence, Deep Learning
 4. [NLP/NN/DL] BERT fine-tuning
     > Fine-tuned BERT pretrained model on the single sentence classification task using verbal arithmetic dataset. Improved performance by hyperparameter tuning (applied weight decay in optimizer).
 
-**개인 프로젝트 (2019)**
-1. [NLP/Computational Linguistics] Transition-Based Dependency Parsing, Neural Dependency Parser [Github](https://github.com/limhyesu98/DependencyParser)
+**Personal Projects (2019)**
+1. [NLP/Computational Linguistics] Dependency Parsing
+    > Transition-Based Dependency Parsing, Neural Dependency Parser [Github](https://github.com/limhyesu98/DependencyParser)
+    
 2. [NLP/Computational Linguistics] Context-Free Grammar Parsing(Auxiliary system, Subcategorization related) [Github](https://github.com/limhyesu98/CFG)
 3. [NLP/Computational Linguistics] Feature Grammar Parsing (Verb complements) [Github](https://github.com/limhyesu98/featureGrammar)
 4. [AI] Pacman Game ([Searching](https://github.com/limhyesu98/pacman_search), [Multi-Agent](https://github.com/limhyesu98/pacman_multiagent), [Exact/Approximate Inference](https://github.com/limhyesu98/pacman_tracking))
