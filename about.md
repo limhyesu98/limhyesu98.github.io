@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Me
+title: About Hyesu Lim(redbaloon17@gmail.com)
 permalink: /about/
 ---
 
@@ -23,32 +23,38 @@ Natural Language Processing, Artificial Intelligence, Deep Learning
 
 **Personal Projects (2020)**
 1. `NLP/NN/DL` Learning Distributed Word Representations
-    > Implemented gradient update of GloVe and find out relationship between dimensionality and its validation performance. Studied the neural language model (Bengio et al. [2003]) and compared it with the n-gram model by visualizing with t-SNE vectors(Maaten and Hinton [2008]). Trained the neural language model and analyzed its performance.
+    > Implemented gradient update of GloVe and find out relationship between dimensionality and its validation performance. Studied the neural language model (*Bengio et al., 2003*) and compared it with the n-gram model by visualizing with t-SNE vectors(*Maaten and Hinton, 2008*). Trained the neural language model and analyzed its performance.
 
-2. [Vision/NN/DL] CNN: Colourization and Classification, UNet. Fine-tune Semenatic Segmentation Model.
-    > Trained CNN for image colourization using CIFAR-10 data set; given greyscale image, predicted the color at each pixel. Implemented convolution layer. Implemented UNet (Ronneberger et al. [2015]) and compared its performance with that of CNN. Using deeplav3(Chen et al. [2017]) pre-trained model and fine-tuned its last layer(freezing other parts) on Oxford17 (Nilsback and Zisserman [2008]) flower dataset. 
+2. `Vision/NN/DL` CNN: Colourization and Classification, UNet. Fine-tune Semenatic Segmentation Model.
+    > Trained CNN for image colourization using CIFAR-10 data set; given greyscale image, predicted the color at each pixel. Implemented convolution layer. Implemented UNet (*Ronneberger et al., 2015*) and compared its performance with that of CNN. Using deeplav3(*Chen et al., 2017*) pre-trained model and fine-tuned its last layer(freezing other parts) on Oxford17 (*Nilsback and Zisserman, 2008*) flower dataset. 
 
-3. [NLP/NN/DL] Attention-Based Neural Machine Translation: Translation between PigLatin(toy language) and English using GRU, Additive Attention, Scaled Dot Product Attention(Causal / Non-causal) models
-    > Implemented attention based NMT models. Analyzed performance of three different models: traditional encoder-decoder model(using GRU), additive attention decoder model, transformer model.
+3. `NLP/NN/DL` Attention-Based Neural Machine Translation
+    > Implemented attention based Neural Machine Translation models.(Transition between PigLatin(toy language) and English) Analyzed performance of three different models: traditional encoder-decoder model(using GRU), additive attention decoder model, transformer model(*Vaswani et al., 2017*).
 
-4. [NLP/NN/DL] BERT fine-tuning
+4. `NLP/NN/DL` BERT fine-tuning
     > Fine-tuned BERT pretrained model on the single sentence classification task using verbal arithmetic dataset. Improved performance by hyperparameter tuning (applied weight decay in optimizer).
 
 **Personal Projects (2019)**
-1. [NLP/Computational Linguistics] Dependency Parsing
-    > Transition-Based Dependency Parsing, Neural Dependency Parser [Github](https://github.com/limhyesu98/DependencyParser)
+1. `NLP/Computational Linguistics` Dependency Parsing
+    > Implemented Transition-Based Dependency Parsing, Neural Dependency Parser [Github](https://github.com/limhyesu98/DependencyParser)
     
-2. [NLP/Computational Linguistics] Context-Free Grammar Parsing(Auxiliary system, Subcategorization related) [Github](https://github.com/limhyesu98/CFG)
-3. [NLP/Computational Linguistics] Feature Grammar Parsing (Verb complements) [Github](https://github.com/limhyesu98/featureGrammar)
-4. [AI] Pacman Game ([Searching](https://github.com/limhyesu98/pacman_search), [Multi-Agent](https://github.com/limhyesu98/pacman_multiagent), [Exact/Approximate Inference](https://github.com/limhyesu98/pacman_tracking))
-5. [AI] Constraint Satisfaction Problems - NQueens, Sudoku [Github](https://github.com/limhyesu98/csp)
-6. [DB] MariaDB(RDBMS), MySQL 을 이용한 웹 애플리케이션 개발. 데이터베이스 중심. [Github](https://github.com/limhyesu98/COSE371_DB)
-7. [Data Science]: Recommendation Model: user-based collaborative filtering model [Github](https://github.com/limhyesu98/COSE471_DataScience)
+2. `NLP/Computational Linguistics` Context-Free Grammar Parsing
+    > Developed and anlyzed limitations of context free grammar for the chart parser in NLTK focusing on Auxiliary system and Subcategorization related. [Github](https://github.com/limhyesu98/CFG)
 
-**개인 프로젝트 (2018)**
-1. [NLP/NN/DL] 기계학습 기법을 이용한 오픈소스 기반 문서 요약 시스템에 관한 연구 (KU 학부연구생 4기): Seq-to-seq Attention Model 을 사용한 abstractive summarization model [Github](https://github.com/limhyesu98/myTextSum)
-2. [NLP/NN/DL] Extract topmost sentences / short summary from the article: Extraction based summarization [Github](https://github.com/limhyesu98/study_AutomaticSummarization)
+3. `NLP/Computational Linguistics` Feature Grammar Parsing
+    > Dveloped feature grammar using TRALE system(*Meurers, Penn and Richter, 2002; Penn, 2004*) focusing on Verb complements. [Github](https://github.com/limhyesu98/featureGrammar)
 
+4. `AI` Pacman Game ([Searching](https://github.com/limhyesu98/pacman_search), [Multi-Agent](https://github.com/limhyesu98/pacman_multiagent), [Exact/Approximate Inference](https://github.com/limhyesu98/pacman_tracking))
+5. `AI` Constraint Satisfaction Problems - NQueens, Sudoku [Github](https://github.com/limhyesu98/csp)
+6. `DB` Web Application Development
+    > Developed a web application about managing one's portfolio using MariaDB and MySQL. Mainly worked on DB. [Github](https://github.com/limhyesu98/COSE371_DB)
+7. `Data Science` Recommendation Model
+    > Explored and analyzed Black Friday Dataset from Kaggle and built a recommendation model using user-based collaborative filtering model. [Github](https://github.com/limhyesu98/COSE471_DataScience)
+
+**Personal Projects (2018)**
+1. `NLP/NN/DL` 기계학습 기법을 이용한 오픈소스 기반 문서 요약 시스템에 관한 연구 (KU 학부연구생 4기)
+    > Did a research about abstractive summarization model using Seq-to-seq Attention Model. [Github](https://github.com/limhyesu98/myTextSum)
+2. `NLP/NN/DL` Extract topmost sentences / short summary from the article: Extraction based summarization [Github](https://github.com/limhyesu98/study_AutomaticSummarization)
 
 
 ### Contact me
