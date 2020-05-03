@@ -68,10 +68,10 @@ Natural Language Processing, Artificial Intelligence, Deep Learning
 ### Awards & Honors
 - Scholarship from [Dooeul Scholarship Foundation](http://dooeul.or.kr/)
     > Selected as a 20th Dooeul scholoarship student and got the scholarship from 2018 to 2020.
-- Scholarship from [Chungnam Scholarship Foundation](https://www.cninjae.or.kr/)(충남인재육성재단)
-    > Selected as a scholarship student(재능키움장학생) and got the scholarship from 2019 to 2020.
-- Took a video as a top student of Korea University College of Informatics
-    > Selected as a top student of Korea University College of Informatics and took a [video](https://youtu.be/wyA82vlEQWk) about my own learning strategies.
+- Scholarship from [Chungnam Scholarship Foundation](https://www.cninjae.or.kr/) (충남인재육성재단)
+    > Selected as a scholarship student (재능키움장학생) and got the scholarship from 2019 to 2020.
+- Took a video as a top student of the Korea University College of Informatics
+    > Selected as a top student of the Korea University College of Informatics and took a [video](https://youtu.be/wyA82vlEQWk) about my own learning strategies.
 
 ### Contact me
 
