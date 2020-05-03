@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Hyesu Lim(redbaloon17@gmail.com)
+title: Hyesu Lim(redbaloon17@gmail.com)
 permalink: /about/
 ---
 
@@ -12,6 +12,13 @@ permalink: /about/
 
 ### Research Interest
 Natural Language Processing, Artificial Intelligence, Deep Learning
+
+### Language Proficiency
+- English: TOEFL 110/120
+
+### Programming Language Proficiency
+- Patreon Engineering Level [IC1](https://levels.patreon.com/)
+- Python, C, Java, MySQL, PyTorch, R
 
 ### Projects
 
@@ -58,6 +65,13 @@ Natural Language Processing, Artificial Intelligence, Deep Learning
     > Did a research about abstractive summarization model using Seq-to-seq Attention Model. [Github](https://github.com/limhyesu98/myTextSum)
 2. `NLP/NN/DL` Extract topmost sentences / short summary from the article: Extraction based summarization [Github](https://github.com/limhyesu98/study_AutomaticSummarization)
 
+### Awards & Honors
+- Scholarship from [Dooeul Scholarship Foundation](http://dooeul.or.kr/)
+    > Selected as a 20th Dooeul scholoarship student and got the scholarship from 2018 to 2020.
+- Scholarship from [Chungnam Scholarship Foundation](https://www.cninjae.or.kr/)(충남인재육성재단)
+    > Selected as a scholarship student(재능키움장학생) and got the scholarship from 2019 to 2020.
+- Took a video as a top student of Korea University College of Informatics
+    > Selected as a top student of Korea University College of Informatics and took a [video](https://youtu.be/wyA82vlEQWk) about my own learning strategies.
 
 ### Contact me
 
