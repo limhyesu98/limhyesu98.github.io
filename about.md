@@ -14,7 +14,8 @@ permalink: /about/
 Natural Language Processing, Artificial Intelligence, Deep Learning
 
 ### Language Proficiency
-- English: TOEFL 110/120
+- [ENG] **TOEFL** 110/120 (2018.09.02)
+- [ENG] **OPIC** Advanced Low (2020.04.09)
 
 ### Programming Language Proficiency
 - Patreon Engineering Level [IC1](https://levels.patreon.com/)
