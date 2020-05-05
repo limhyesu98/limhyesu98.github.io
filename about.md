@@ -27,7 +27,7 @@ Natural Language Processing, Artificial Intelligence, Deep Learning
 1. Web Application Development (2020/01~2020/04, Team of six members)
     > Having an partnership with MEG, developed a web application using Python Flask, PostgreSQL, SQLAlchemy, React, JavaScript as a memeber of developing team. Mainly worked on DB and Backend. It was a searching engine for ethical produts. [Github](https://github.com/SmitRao/meg)
 2. UI/UX Design (2019/09~2019/12, Team of six members)
-    > Following through the diamond iterative design process (Design, Prototype, Evaluate(including usability testing and expert reviews)), I designed a mobile application. Main features of this application are managing one's yearly/monthly/daily plan and motivating users to stick their goals.
+    > Following through the Double Diamond iterative design process (Design, Prototype, Evaluate(including usability testing and expert reviews)), I designed a mobile application. Main features of this application are managing one's yearly/monthly/daily plan and motivating users to stick their goals.
 
 **Personal Projects (2020)**
 1. `NLP/NN/DL` Learning Distributed Word Representations
