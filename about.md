@@ -7,6 +7,8 @@ permalink: /about/
 ### Education
 <img src="https://raw.githubusercontent.com/limhyesu98/limhyesu98.github.io/master/images/KoreaUniv.png" width="60"><img src="https://raw.githubusercontent.com/limhyesu98/limhyesu98.github.io/master/images/KoreaUniv_.png" height="60">
 
+- GPA: 4.35/4.5
+
 <img src="https://raw.githubusercontent.com/limhyesu98/limhyesu98.github.io/master/images/UofT.png" width="60"><img src="https://raw.githubusercontent.com/limhyesu98/limhyesu98.github.io/master/images/UofT_.png" height="60">
 
 
