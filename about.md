@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hyesu Lim(redbaloon17@gmail.com)
+title: Hyesu Lim(limhyesu98@korea.ac.kr)
 permalink: /about/
 ---
 
@@ -79,3 +79,4 @@ Natural Language Processing, Artificial Intelligence, Deep Learning
 ### Contact me
 
 [redbaloon17@gmail.com](mailto:redbaloon17@gmail.com)
+[limhyesu98@korea.ac.kr](mailto:limhyesu98@korea.ac.kr)
