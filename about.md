@@ -44,8 +44,6 @@ Natural Language Processing, Artificial Intelligence, Deep Learning
 4. `NLP/NN/DL` BERT fine-tuning
     > Fine-tuned BERT pretrained model on the single sentence classification task using verbal arithmetic dataset. Improved performance by hyperparameter tuning (applied weight decay in optimizer). [Github](https://github.com/limhyesu98/CSC413_NN-DL/tree/master/PA3)
 
-^ Planning to upload the code of these projects at the end of this term.
-
 **Personal Projects (2019)**
 1. `NLP/Computational Linguistics` Dependency Parsing
     > Implemented Transition-Based Dependency Parsing, Neural Dependency Parser [Github](https://github.com/limhyesu98/DependencyParser)
