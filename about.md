@@ -33,16 +33,16 @@ Natural Language Processing, Artificial Intelligence, Deep Learning
 
 **Personal Projects (2020)**
 1. `NLP/NN/DL` Learning Distributed Word Representations
-    > Implemented gradient update of GloVe and find out relationship between dimensionality and its validation performance. Studied the neural language model (*Bengio et al., 2003*) and compared it with the n-gram model by visualizing with t-SNE vectors(*Maaten and Hinton, 2008*). Trained the neural language model and analyzed its performance.
+    > Implemented gradient update of GloVe and find out relationship between dimensionality and its validation performance. Studied the neural language model (*Bengio et al., 2003*) and compared it with the n-gram model by visualizing with t-SNE vectors(*Maaten and Hinton, 2008*). Trained the neural language model and analyzed its performance. [Github](https://github.com/limhyesu98/CSC413_NN-DL/tree/master/PA1)
 
 2. `Vision/NN/DL` CNN: Colourization and Classification, UNet. Fine-tune Semenatic Segmentation Model.
-    > Trained CNN for image colourization using CIFAR-10 data set; given greyscale image, predicted the color at each pixel. Implemented convolution layer. Implemented UNet (*Ronneberger et al., 2015*) and compared its performance with that of CNN. Using deeplav3(*Chen et al., 2017*) pre-trained model and fine-tuned its last layer(freezing other parts) on Oxford17 (*Nilsback and Zisserman, 2008*) flower dataset. 
+    > Trained CNN for image colourization using CIFAR-10 data set; given greyscale image, predicted the color at each pixel. Implemented convolution layer. Implemented UNet (*Ronneberger et al., 2015*) and compared its performance with that of CNN. Using deeplav3(*Chen et al., 2017*) pre-trained model and fine-tuned its last layer(freezing other parts) on Oxford17 (*Nilsback and Zisserman, 2008*) flower dataset. [Github](https://github.com/limhyesu98/CSC413_NN-DL/tree/master/PA1)
 
 3. `NLP/NN/DL` Attention-Based Neural Machine Translation
-    > Implemented attention based Neural Machine Translation models.(Transition between PigLatin(toy language) and English) Analyzed performance of three different models: traditional encoder-decoder model(using GRU), additive attention decoder model, transformer model(*Vaswani et al., 2017*).
+    > Implemented attention based Neural Machine Translation models.(Transition between PigLatin(toy language) and English) Analyzed performance of three different models: traditional encoder-decoder model(using GRU), additive attention decoder model, transformer model(*Vaswani et al., 2017*). [Github](https://github.com/limhyesu98/CSC413_NN-DL/tree/master/PA2)
 
 4. `NLP/NN/DL` BERT fine-tuning
-    > Fine-tuned BERT pretrained model on the single sentence classification task using verbal arithmetic dataset. Improved performance by hyperparameter tuning (applied weight decay in optimizer).
+    > Fine-tuned BERT pretrained model on the single sentence classification task using verbal arithmetic dataset. Improved performance by hyperparameter tuning (applied weight decay in optimizer). [Github](https://github.com/limhyesu98/CSC413_NN-DL/tree/master/PA3)
 
 ^ Planning to upload the code of these projects at the end of this term.
 
