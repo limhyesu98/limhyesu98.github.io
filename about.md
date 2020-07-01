@@ -32,12 +32,11 @@ Natural Language Processing, Artificial Intelligence, Deep Learning
     > Following through the Double Diamond iterative design process (Design, Prototype, Evaluate(including usability testing and expert reviews)), I designed a mobile application. Main features of this application are managing one's yearly/monthly/daily plan and motivating users to stick their goals.
 
 **Personal Projects (2020)**
-1. `NLP/Data Science` 
+1. `NLP/Data Science` Course Recommendation System (2020/05 ~ present)
     > Working with Data@KU(고려대학교 디지털정보처), I am currently contributing on building course recommendation system. Using the text data about courses, including course outline, goal and keywords, I am implementing a system that can find similar courses with a certain course and can find courses related to certain searching keywords.
 
 2. Web Application Devlopment(2020/05 ~ present)
     > Working with Seoul National University School of Dentistry, I am currently developing a web application. Main goals of this web application are to provide automatic and intuitive way of periodontal disease diagnosis to dentists and to provide an efficient interface of communication between patients and dentists. The algorithm of automatic diagnosis and the output which is this web application are currently pending for a patent application.
-
 
 3. `NLP/NN/DL` Learning Distributed Word Representations
     > Implemented gradient update of GloVe and find out relationship between dimensionality and its validation performance. Studied the neural language model (*Bengio et al., 2003*) and compared it with the n-gram model by visualizing with t-SNE vectors(*Maaten and Hinton, 2008*). Trained the neural language model and analyzed its performance. [Github](https://github.com/limhyesu98/CSC413_NN-DL/tree/master/PA1)
