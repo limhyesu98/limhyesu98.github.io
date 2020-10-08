@@ -32,22 +32,25 @@ Natural Language Processing, Artificial Intelligence, Deep Learning
     > Following through the Double Diamond iterative design process (Design, Prototype, Evaluate(including usability testing and expert reviews)), I designed a mobile application. Main features of this application are managing one's yearly/monthly/daily plan and motivating users to stick their goals.
 
 **Personal Projects (2020)**
-1. `NLP/Data Science` Course Recommendation System (2020/05 ~ present)
-    > Working with Data@KU(고려대학교 디지털정보처), I am currently contributing on building course recommendation system. Using the text data about courses, including course outline, goal and keywords, I am implementing a system that can find similar courses with a certain course and can find courses related to certain searching keywords.
+1. `NLP/Data Science` Multi Major Recommendation System (2020/05 ~ 2020/08)
+    > Working with Data@KU(고려대학교 디지털정보처), contributed on building multi major recommendation system. Using text data about course description, KCI(Korean Citation Index) data, and course curriculum data, I have implemented a multi major recommendation systme. Students can search multi major using searching keyword. The system returns most related multi major(이중전공, 융합전공).
 
-2. Web Application Devlopment (2020/05 ~ present)
-    > Working with Seoul National University School of Dentistry, I am currently developing a web application. Main goals of this web application are to provide automatic and intuitive way of periodontal disease diagnosis to dentists and to provide an efficient interface of communication between patients and dentists. The algorithm of automatic diagnosis and the output which is this web application are currently pending for a patent application.
+2. `NLP/Data Science` Course Recommendation System (2020/05 ~ 2020/08)
+    > Working with Data@KU(고려대학교 디지털정보처), I am currently contributing on building course recommendation system. Using the text data about courses, including course outline, goal and keywords, I am implementing a system that can find similar courses with a certain course and can find courses related to certain searching keywords. 
 
-3. `NLP/NN/DL` Learning Distributed Word Representations
+3. Web Application Devlopment (2020/05 ~ 2020/08)
+    > Working with Seoul National University School of Dentistry, I developed a web application. Main goals of this web application are to provide automatic and intuitive way of periodontal disease diagnosis to dentists and to provide an efficient interface of communication between patients and dentists. The algorithm of automatic diagnosis and the output which is this web application are currently pending for a patent application.
+
+4. `NLP/NN/DL` Learning Distributed Word Representations
     > Implemented gradient update of GloVe and find out relationship between dimensionality and its validation performance. Studied the neural language model (*Bengio et al., 2003*) and compared it with the n-gram model by visualizing with t-SNE vectors(*Maaten and Hinton, 2008*). Trained the neural language model and analyzed its performance. [Github](https://github.com/limhyesu98/CSC413_NN-DL/tree/master/PA1)
 
-4. `Vision/NN/DL` CNN: Colourization and Classification, UNet. Fine-tune Semenatic Segmentation Model.
+5. `Vision/NN/DL` CNN: Colourization and Classification, UNet. Fine-tune Semenatic Segmentation Model.
     > Trained CNN for image colourization using CIFAR-10 data set; given greyscale image, predicted the color at each pixel. Implemented convolution layer. Implemented UNet (*Ronneberger et al., 2015*) and compared its performance with that of CNN. Using deeplav3(*Chen et al., 2017*) pre-trained model and fine-tuned its last layer(freezing other parts) on Oxford17 (*Nilsback and Zisserman, 2008*) flower dataset. [Github](https://github.com/limhyesu98/CSC413_NN-DL/tree/master/PA2)
 
-5. `NLP/NN/DL` Attention-Based Neural Machine Translation
+6. `NLP/NN/DL` Attention-Based Neural Machine Translation
     > Implemented attention based Neural Machine Translation models.(Transition between PigLatin(toy language) and English) Analyzed performance of three different models: traditional encoder-decoder model(using GRU), additive attention decoder model, transformer model(*Vaswani et al., 2017*). [Github](https://github.com/limhyesu98/CSC413_NN-DL/tree/master/PA3)
 
-6. `NLP/NN/DL` BERT fine-tuning
+7. `NLP/NN/DL` BERT fine-tuning
     > Fine-tuned BERT pretrained model on the single sentence classification task using verbal arithmetic dataset. Improved performance by hyperparameter tuning (applied weight decay in optimizer). [Github](https://github.com/limhyesu98/CSC413_NN-DL/tree/master/PA3)
 
 **Personal Projects (2019)**
@@ -79,6 +82,8 @@ Natural Language Processing, Artificial Intelligence, Deep Learning
     > Selected as a scholarship student (재능키움장학생) and got the scholarship from 2019 to 2020.
 - Took a video as a top student of the Korea University College of Informatics (고려대학교 최우등생 학습전략 영상 )
     > Selected as a top student of the Korea University College of Informatics and took a [video](https://youtu.be/wyA82vlEQWk) about my own learning strategies. 
+- Working as Flagly Reviewr [Flagly](https://flagly.org/)
+    > Selected as course reviewer. Reveiwer is as same as TA of each course. I review students' assignments to each course.
 
 ### Contact me
 
