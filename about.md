@@ -23,6 +23,10 @@ Natural Language Processing, Artificial Intelligence, Deep Learning
 - Patreon Engineering Level [IC1](https://levels.patreon.com/)
 - Python, C, Java, MySQL, PyTorch, R
 
+### Publications
+1. A Survey on Interactive Image Segmentation Using Deep Learning
+    > Gyuhyeon Sim, Jinho Choi*, **Hyesu Lim*** and  Jaegul Choo. CKAIA2020 Accepted.
+
 ### Projects
 
 **Team Projects**
